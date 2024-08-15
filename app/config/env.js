@@ -4,7 +4,7 @@ const env = {
   database: 'capibaras',
   username: 'silverhand',
   password: '05ZPZefTsMIniOWiN6shrh3YGf264Nrx',
-  host: 'dpg-cqc7m0l6l47c73cv9kj0-a.singapore-postgres.render.com',
+  host: 'dpg-cqc7m0l6l47c73cv9kj0-a',
   dialect: 'postgres',
   pool: {
     max: 5,
