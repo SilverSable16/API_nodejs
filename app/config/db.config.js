@@ -24,8 +24,10 @@ const sequelize = new Sequelize(env.database, env.username, env.password, {
 
 const db = {};
 
-db.Sequelize = Sequelize;
+
+db.sequelize = sequelize;
 db.sequelize = sequelize;
  
 db.Libro = require('../models/libro.model.js')(sequelize, Sequelize);
+db.Prestamo = require('../models/prestamo.model.js')(sequelize, Sequelize);
  module.exports = db;
